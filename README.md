@@ -241,16 +241,15 @@ sns.regplot(data=Reaction_time_05mg,
 * Produces consolidated RCY d.c. dataset in the form of a summary CSV `RCY_summary.csv`
 * Produces CSV files containing the calculated column e.g. `240911_C24_Exp22_calculated.csv`
 
-project/
-
-RCY_dc_script_v2.py
-
+```
+├──project/
+├──RCY_dc_script_v2.py
 ├──input/ 
 	├── raw_csv_files 
-
 ├──output/ 
 	├── calculated_csv_files 
 	├── rcy_summary.csv
+```
 
 <details>
 
