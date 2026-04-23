@@ -54,9 +54,10 @@ Transforms raw radiochemistry experiment data into **usable insights** by:
 
 ### 1. Data Processing Jupyter Notebook (file_1)
 
-* Adds calculated time-corrected activity column
-* Calculates RCY d.c.
-* Outputs CSV containing the time-corrected activity column
+* Inputs a CSV containing experimental data `240911_C24_Exp21.csv`
+* Adds calculated time-corrected activity column `1a.jpg`
+* Calculates RCY d.c. `1b.jpg`
+* Outputs CSV containing the time-corrected activity column `240911_C24_Exp21_calculated`
 
 <details>
 
@@ -147,8 +148,9 @@ print(rounded_RCY_dc)
 
 ### 2. Visualisation Jupyter Notebook (file_2)
 
-* Analyses RCY d.c. distributions
-* Generates publication-style plots
+* Analyses RCY d.c. distributions from CSV `241210_C24_Reaction_time_0.5.csv`
+* Calculates an average RCY d.c. across multiple experiments `241210_C24_Reaction_time_0.5_calculated.csv`
+* Generates publication-style plots `output.png`
 
 <details>
 
