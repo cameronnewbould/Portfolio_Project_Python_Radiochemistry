@@ -50,35 +50,9 @@ Transforms raw radiochemistry experiment data into **usable insights** by:
 
 ---
 
-## 🔄 Workflow
-
-```text
-Raw CSV Data
-     ↓
-Time-Corrected Activity Calculation
-     ↓
-RCY (Decay-Corrected) Computation
-     ↓
-Batch Automation (Multiple Files)
-     ↓
-Visualisation & Insights
-```
-
----
-
-## 📊 Example Output
-
-* Distribution of RCY d.c. across experiments
-* Identification of variability in synthesis performance
-* Scalable processing for large experimental datasets
-
-![RCY d.c. vs reaction time](file_2/output.png)
-
----
-
 ## 🧩 Core Components
 
-### 1. Data Processing Notebook
+### 1. Data Processing Jupyter Notebook
 
 * Adds calculated time-corrected activity column
 * Calculates RCY d.c.
@@ -171,7 +145,7 @@ print(rounded_RCY_dc)
 
 </details>
 
-### 2. Visualisation Notebook
+### 2. Visualisation Jupyter Notebook
 
 * Analyses RCY d.c. distributions
 * Generates publication-style plots
@@ -259,7 +233,7 @@ sns.regplot(data=Reaction_time_05mg,
 
 </details>
 
-### 3. Automation Script
+### 3. Automation Python Script
 
 * Processes multiple CSV files e.g. `240911_C24_Exp22.csv`
 * Produces consolidated RCY d.c. dataset in the form of a summary CSV `RCY_summary.csv`
