@@ -52,7 +52,7 @@ Transforms raw radiochemistry experiment data into **usable insights** by:
 
 ## 🧩 Core Components
 
-### 1. Data Processing Jupyter Notebook
+### 1. Data Processing Jupyter Notebook (file_1)
 
 * Adds calculated time-corrected activity column
 * Calculates RCY d.c.
@@ -145,7 +145,7 @@ print(rounded_RCY_dc)
 
 </details>
 
-### 2. Visualisation Jupyter Notebook
+### 2. Visualisation Jupyter Notebook (file_2)
 
 * Analyses RCY d.c. distributions
 * Generates publication-style plots
@@ -233,7 +233,7 @@ sns.regplot(data=Reaction_time_05mg,
 
 </details>
 
-### 3. Automation Python Script
+### 3. Automation Python Script (file_3)
 
 * Processes multiple CSV files e.g. `240911_C24_Exp22.csv`
 * Produces consolidated RCY d.c. dataset in the form of a summary CSV `RCY_summary.csv`
