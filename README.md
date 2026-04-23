@@ -238,8 +238,8 @@ sns.regplot(data=Reaction_time_05mg,
 ### 3. Automation Python Script (file_3)
 
 * Processes multiple CSV files e.g. `240911_C24_Exp22.csv`
-* Produces consolidated RCY d.c. dataset in the form of a summary CSV `RCY_summary.csv`
 * Produces CSV files containing the calculated column e.g. `240911_C24_Exp22_calculated.csv`
+* v2 was developed to produce a consolidated RCY d.c. dataset in the form of a summary CSV `RCY_summary.csv`
 
 ```
 ├──project/
@@ -341,3 +341,19 @@ This project:
 ## 📌 Takeaway
 
 A practical example of turning **raw scientific data → automated pipeline → actionable insight** using Python.
+
+---
+
+## 📂 Files in This Repository
+
+| File / Folder | Description |
+|--------------|------------|
+| `file_1` | Data Processing Jupyter Notebook + Data + Screenshots |
+| `file_2` | Visualisation Jupyter Notebook + Data + Screenshots |
+| `file_3` | Automation Python Script v1 + v2 + Data + Screenshots |
+| `README.md` | Project documentation |
+
+---
+
+## 🔗 Connect With Me
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Cameron_Newbould-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/cameron-newbould-4a434a308/)
