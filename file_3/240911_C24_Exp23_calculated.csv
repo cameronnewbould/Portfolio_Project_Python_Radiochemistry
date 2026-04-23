@@ -1,0 +1,12 @@
+Step,"Recorded activity, MBq","Time correction, Min","Time_corrected_activity, MBq"
+QMA retained,21.0,0,21.0
+RV not dry,1286.0,0,1286.0
+RV dry,1099.0,24,1278.8351988090294
+Small RV,301.0,43,394.9011710098644
+Small RV empty,3.0,58,4.326918710910474
+tc18 trapped,37.5,62,55.47000828587641
+Non-retained,198.0,69,306.11791446520715
+tc18 retrapped,201.0,91,357.068682591124
+Non-retained,26.0,89,45.608344772509106
+tc18 retained,23.0,96,42.16920287984103
+Product,152.0,98,282.2252616456486
