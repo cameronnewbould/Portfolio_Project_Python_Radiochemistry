@@ -328,7 +328,7 @@ This project:
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Tools & Technologies
 
 * Python
 * Pandas / NumPy
