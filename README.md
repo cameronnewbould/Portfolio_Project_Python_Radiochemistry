@@ -329,6 +329,7 @@ This project:
 * Improves reproducibility
 * Enables faster experimental insight
 
+Ultimately, this project developed my python skills including scripting.
 ---
 
 ## 🛠️ Tools & Technologies
