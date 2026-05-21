@@ -1,5 +1,5 @@
 # ☢️ Decay-corrected Radiochemical Yield Analysis
-### Project Python Radiochemistry
+### Portfolio Project - Python - Radiochemistry
 
 > Automated calculation and visualisation of decay-corrected radiochemical yield (RCY d.c.) from experimental data
 
