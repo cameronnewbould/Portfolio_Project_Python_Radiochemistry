@@ -1,4 +1,4 @@
-# Project-Python-Radiochemistry
+# Project Python Radiochemistry
 # ☢️ Decay-corrected Radiochemical Yield Analysis
 
 > Automated calculation and visualisation of decay-corrected radiochemical yield (RCY d.c.) from experimental data
