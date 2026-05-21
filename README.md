@@ -1,5 +1,5 @@
 # ☢️ Decay-corrected Radiochemical Yield Analysis
-# Project Python Radiochemistry
+### Project Python Radiochemistry
 
 > Automated calculation and visualisation of decay-corrected radiochemical yield (RCY d.c.) from experimental data
 
@@ -60,6 +60,7 @@ Transforms raw radiochemistry experiment data into **usable insights** by:
 * Outputs CSV containing the time-corrected activity column `240911_C24_Exp21_calculated`
 
 <details>
+<summary>1. Data Processing Details</summary>
 
 ```python
 %pip install numpy
@@ -153,6 +154,7 @@ print(rounded_RCY_dc)
 * Generates publication-style plots `output.png`
 
 <details>
+<summary>2. Data Visualisation Details</summary>
 
 ```python
 %pip install numpy
@@ -252,6 +254,7 @@ sns.regplot(data=Reaction_time_05mg,
 ```
 
 <details>
+<summary>3. Data Automation Details</summary>
 
 ````python 
 import os
