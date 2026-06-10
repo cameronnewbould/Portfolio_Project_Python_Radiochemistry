@@ -5,27 +5,16 @@
 
 ---
 
-## 🚀 What This Project Does
-
-Transforms raw radiochemistry experiment data into **usable insights** by:
-
-* Calculating time-corrected activity
-* Computing RCY d.c.
-* Automating batch processing across multiple experiments
-* Visualising RCY d.c. across multiple experiments under different experimental parameters
-
----
-
-## ⚡ Key Highlights
+## 📌 Project Overview
 
 * 🔬 Built using **real first-hand radiochemistry data**
-* ⚙️ Automated multi-file processing pipeline
+* ⚙️ **Script** multi-file batch processing 
 * 📊 Clean, reproducible data analysis workflow
-* 📈 Insightful visualisations using Seaborn
+* 📈 Insightful visualisations of RCY d.c. across multiple experiments under different experimental parameters using **Seaborn**
 
 ---
 
-## 🧠 Skills Demonstrated
+## 🛠 Skills and Techniques Demonstrated
 
 **Data Analysis**
 
@@ -147,6 +136,8 @@ print(rounded_RCY_dc)
 
 </details>
 
+---
+
 ### 2. Visualisation Jupyter Notebook (file_2)
 
 * Analyses RCY d.c. distributions from CSV `241210_C24_Reaction_time_0.5.csv`
@@ -237,6 +228,8 @@ sns.regplot(data=Reaction_time_05mg,
 
 </details>
 
+---
+
 ### 3. Automation Python Script (file_3)
 
 * Processes multiple CSV files e.g. `240911_C24_Exp22.csv`
@@ -319,7 +312,7 @@ if __name__ == "__main__":
 
 ---
 
-## 💡 Why This Project Matters
+## 💡 Outcomes
 
 Radiochemistry workflows are **time-sensitive and data-heavy**.
 This project:
@@ -329,7 +322,6 @@ This project:
 * Improves reproducibility
 * Enables faster experimental insight
 
-Ultimately, this project developed my python skills including scripting.
 ---
 
 ## 🛠️ Tools & Technologies
@@ -339,12 +331,6 @@ Ultimately, this project developed my python skills including scripting.
 * Seaborn / Matplotlib
 * Jupyter Notebooks
 * Visual Studio Code
-
----
-
-## 📌 Takeaway
-
-A practical example of turning **raw scientific data → automated pipeline → actionable insight** using Python.
 
 ---
 
